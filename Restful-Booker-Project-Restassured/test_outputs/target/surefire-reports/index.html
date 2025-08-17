@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Restful-Booker API Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Restful_Booker_API_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\moham\Downloads\Restful-Booker-Project\Restful-Booker-Project\TestRunner\Regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Restful_Booker_API_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Restful_Booker_API_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Restful_Booker_API_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Restful_Booker_API_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Restful_Booker_API_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Restful_Booker_API_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" class="hide-methods passed suite-Restful_Booker_API_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Restful_Booker_API_Test_Suite -->
+                      <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" class="show-methods passed suite-Restful_Booker_API_Test_Suite"> (show)</a> <!-- show-methods passed suite-Restful_Booker_API_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Restful_Booker_API_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.ErrorScenarioTests" class="method navigator-link" hash-for-method="testAuthWithInvalidCredentials">testAuthWithInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.E2ETests" class="method navigator-link" hash-for-method="testBookingLifecycle">testBookingLifecycle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.apis.CreateBookingTests" class="method navigator-link" hash-for-method="testCreateBooking">testCreateBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.ErrorScenarioTests" class="method navigator-link" hash-for-method="testCreateBookingInvalidJson">testCreateBookingInvalidJson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.apis.AuthTests" class="method navigator-link" hash-for-method="testCreateToken">testCreateToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.apis.DeleteBookingTests" class="method navigator-link" hash-for-method="testDeleteBooking">testDeleteBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.ErrorScenarioTests" class="method navigator-link" hash-for-method="testDeleteBookingWithInvalidToken">testDeleteBookingWithInvalidToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.ErrorScenarioTests" class="method navigator-link" hash-for-method="testDeleteNonExistentBooking">testDeleteNonExistentBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.apis.GetBookingTests" class="method navigator-link" hash-for-method="testGetAllBookingIds">testGetAllBookingIds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.apis.GetBookingTests" class="method navigator-link" hash-for-method="testGetBookingById">testGetBookingById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.ErrorScenarioTests" class="method navigator-link" hash-for-method="testGetNonExistentBooking">testGetNonExistentBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.apis.PartialUpdateBookingTests" class="method navigator-link" hash-for-method="testPartialUpdateBooking">testPartialUpdateBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.apis.SearchBookingTests" class="method navigator-link" hash-for-method="testSearchBookingByDates">testSearchBookingByDates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.apis.SearchBookingTests" class="method navigator-link" hash-for-method="testSearchBookingByName">testSearchBookingByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.apis.UpdateBookingTests" class="method navigator-link" hash-for-method="testUpdateBooking">testUpdateBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.apis.UpdateBookingTests" class="method navigator-link" hash-for-method="testUpdateBookingInvalidToken">testUpdateBookingInvalidToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.ErrorScenarioTests" class="method navigator-link" hash-for-method="testUpdateBookingWithInvalidToken">testUpdateBookingWithInvalidToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Restful_Booker_API_Test_Suite" title="com.example.apitesting.tests.ErrorScenarioTests" class="method navigator-link" hash-for-method="testUpdateNonExistentBooking">testUpdateNonExistentBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Restful_Booker_API_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Restful_Booker_API_Test_Suite" class="panel Restful_Booker_API_Test_Suite">
+          <div class="suite-Restful_Booker_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.example.apitesting.tests.apis.SearchBookingTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBookingByDates">
+                  </a> <!-- testSearchBookingByDates -->
+                  <span class="method-name">testSearchBookingByDates</span>
+                  <em>
+(Verify searching bookings by dates)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBookingByName">
+                  </a> <!-- testSearchBookingByName -->
+                  <span class="method-name">testSearchBookingByName</span>
+                  <em>
+(Verify searching bookings by name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Restful_Booker_API_Test_Suite-class-passed -->
+          <div class="suite-Restful_Booker_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.example.apitesting.tests.E2ETests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBookingLifecycle">
+                  </a> <!-- testBookingLifecycle -->
+                  <span class="method-name">testBookingLifecycle</span>
+                  <em>
+(End-to-End Test: Create, Get, Update, Partial Update, Delete Booking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Restful_Booker_API_Test_Suite-class-passed -->
+          <div class="suite-Restful_Booker_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.example.apitesting.tests.apis.PartialUpdateBookingTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPartialUpdateBooking">
+                  </a> <!-- testPartialUpdateBooking -->
+                  <span class="method-name">testPartialUpdateBooking</span>
+                  <em>
+(Verify partial update of booking with valid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Restful_Booker_API_Test_Suite-class-passed -->
+          <div class="suite-Restful_Booker_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.example.apitesting.tests.apis.DeleteBookingTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteBooking">
+                  </a> <!-- testDeleteBooking -->
+                  <span class="method-name">testDeleteBooking</span>
+                  <em>
+(Verify successful booking deletion)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Restful_Booker_API_Test_Suite-class-passed -->
+          <div class="suite-Restful_Booker_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.example.apitesting.tests.apis.GetBookingTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllBookingIds">
+                  </a> <!-- testGetAllBookingIds -->
+                  <span class="method-name">testGetAllBookingIds</span>
+                  <em>
+(Verify retrieving all booking IDs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetBookingById">
+                  </a> <!-- testGetBookingById -->
+                  <span class="method-name">testGetBookingById</span>
+                  <em>
+(Verify retrieving a booking by ID)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Restful_Booker_API_Test_Suite-class-passed -->
+          <div class="suite-Restful_Booker_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.example.apitesting.tests.ErrorScenarioTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthWithInvalidCredentials">
+                  </a> <!-- testAuthWithInvalidCredentials -->
+                  <span class="method-name">testAuthWithInvalidCredentials</span>
+                  <em>
+(Verify authentication with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateBookingInvalidJson">
+                  </a> <!-- testCreateBookingInvalidJson -->
+                  <span class="method-name">testCreateBookingInvalidJson</span>
+                  <em>
+(Verify booking creation with invalid JSON)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteBookingWithInvalidToken">
+                  </a> <!-- testDeleteBookingWithInvalidToken -->
+                  <span class="method-name">testDeleteBookingWithInvalidToken</span>
+                  <em>
+(Verify deleting a booking with invalid token)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteNonExistentBooking">
+                  </a> <!-- testDeleteNonExistentBooking -->
+                  <span class="method-name">testDeleteNonExistentBooking</span>
+                  <em>
+(Verify deleting a non-existent booking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetNonExistentBooking">
+                  </a> <!-- testGetNonExistentBooking -->
+                  <span class="method-name">testGetNonExistentBooking</span>
+                  <em>
+(Verify getting a non-existent booking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateBookingWithInvalidToken">
+                  </a> <!-- testUpdateBookingWithInvalidToken -->
+                  <span class="method-name">testUpdateBookingWithInvalidToken</span>
+                  <em>
+(Verify updating a booking with invalid token)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateNonExistentBooking">
+                  </a> <!-- testUpdateNonExistentBooking -->
+                  <span class="method-name">testUpdateNonExistentBooking</span>
+                  <em>
+(Verify updating a non-existent booking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Restful_Booker_API_Test_Suite-class-passed -->
+          <div class="suite-Restful_Booker_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.example.apitesting.tests.apis.UpdateBookingTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateBooking">
+                  </a> <!-- testUpdateBooking -->
+                  <span class="method-name">testUpdateBooking</span>
+                  <em>
+(Verify successful booking update)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateBookingInvalidToken">
+                  </a> <!-- testUpdateBookingInvalidToken -->
+                  <span class="method-name">testUpdateBookingInvalidToken</span>
+                  <em>
+(Verify booking update with invalid token)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Restful_Booker_API_Test_Suite-class-passed -->
+          <div class="suite-Restful_Booker_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.example.apitesting.tests.apis.AuthTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateToken">
+                  </a> <!-- testCreateToken -->
+                  <span class="method-name">testCreateToken</span>
+                  <em>
+(Verify successful token creation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Restful_Booker_API_Test_Suite-class-passed -->
+          <div class="suite-Restful_Booker_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.example.apitesting.tests.apis.CreateBookingTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateBooking">
+                  </a> <!-- testCreateBooking -->
+                  <span class="method-name">testCreateBooking</span>
+                  <em>
+(Verify successful booking creation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Restful_Booker_API_Test_Suite-class-passed -->
+        </div> <!-- panel Restful_Booker_API_Test_Suite -->
+        <div panel-name="test-xml-Restful_Booker_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\moham\Downloads\Restful-Booker-Project\Restful-Booker-Project\TestRunner\Regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Restful-Booker API Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Listeners.IInvokedMethodListenerImpl&quot;/&gt;
+    &lt;listener class-name=&quot;Listeners.ITest&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Restful-Booker API Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.example.apitesting.tests.apis.AuthTests&quot;/&gt;
+      &lt;class name=&quot;com.example.apitesting.tests.apis.CreateBookingTests&quot;/&gt;
+      &lt;class name=&quot;com.example.apitesting.tests.apis.GetBookingTests&quot;/&gt;
+      &lt;class name=&quot;com.example.apitesting.tests.apis.UpdateBookingTests&quot;/&gt;
+      &lt;class name=&quot;com.example.apitesting.tests.apis.DeleteBookingTests&quot;/&gt;
+      &lt;class name=&quot;com.example.apitesting.tests.apis.SearchBookingTests&quot;/&gt;
+      &lt;class name=&quot;com.example.apitesting.tests.E2ETests&quot;/&gt;
+      &lt;class name=&quot;com.example.apitesting.tests.ErrorScenarioTests&quot;/&gt;
+      &lt;class name=&quot;com.example.apitesting.tests.apis.PartialUpdateBookingTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Restful-Booker API Tests --&gt;
+&lt;/suite&gt; &lt;!-- Restful-Booker API Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Restful_Booker_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Restful-Booker API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Restful-Booker API Tests (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Restful_Booker_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Restful-Booker API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Restful_Booker_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Restful-Booker API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Restful_Booker_API_Test_Suite');
+function tableData_Restful_Booker_API_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCreateToken')
+data.setCell(0, 2, 'com.example.apitesting.tests.apis.AuthTests')
+data.setCell(0, 3, 17678);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testBookingLifecycle')
+data.setCell(1, 2, 'com.example.apitesting.tests.E2ETests')
+data.setCell(1, 3, 6388);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testDeleteBooking')
+data.setCell(2, 2, 'com.example.apitesting.tests.apis.DeleteBookingTests')
+data.setCell(2, 3, 2823);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCreateBooking')
+data.setCell(3, 2, 'com.example.apitesting.tests.apis.CreateBookingTests')
+data.setCell(3, 3, 2603);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSearchBookingByName')
+data.setCell(4, 2, 'com.example.apitesting.tests.apis.SearchBookingTests')
+data.setCell(4, 3, 2471);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testGetBookingById')
+data.setCell(5, 2, 'com.example.apitesting.tests.apis.GetBookingTests')
+data.setCell(5, 3, 1946);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSearchBookingByDates')
+data.setCell(6, 2, 'com.example.apitesting.tests.apis.SearchBookingTests')
+data.setCell(6, 3, 1463);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testGetAllBookingIds')
+data.setCell(7, 2, 'com.example.apitesting.tests.apis.GetBookingTests')
+data.setCell(7, 3, 1451);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testPartialUpdateBooking')
+data.setCell(8, 2, 'com.example.apitesting.tests.apis.PartialUpdateBookingTests')
+data.setCell(8, 3, 1057);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testUpdateBooking')
+data.setCell(9, 2, 'com.example.apitesting.tests.apis.UpdateBookingTests')
+data.setCell(9, 3, 993);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testUpdateBookingInvalidToken')
+data.setCell(10, 2, 'com.example.apitesting.tests.apis.UpdateBookingTests')
+data.setCell(10, 3, 951);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testAuthWithInvalidCredentials')
+data.setCell(11, 2, 'com.example.apitesting.tests.ErrorScenarioTests')
+data.setCell(11, 3, 920);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testUpdateBookingWithInvalidToken')
+data.setCell(12, 2, 'com.example.apitesting.tests.ErrorScenarioTests')
+data.setCell(12, 3, 902);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testCreateBookingInvalidJson')
+data.setCell(13, 2, 'com.example.apitesting.tests.ErrorScenarioTests')
+data.setCell(13, 3, 896);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testDeleteBookingWithInvalidToken')
+data.setCell(14, 2, 'com.example.apitesting.tests.ErrorScenarioTests')
+data.setCell(14, 3, 894);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testDeleteNonExistentBooking')
+data.setCell(15, 2, 'com.example.apitesting.tests.ErrorScenarioTests')
+data.setCell(15, 3, 890);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testGetNonExistentBooking')
+data.setCell(16, 2, 'com.example.apitesting.tests.ErrorScenarioTests')
+data.setCell(16, 3, 882);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testUpdateNonExistentBooking')
+data.setCell(17, 2, 'com.example.apitesting.tests.ErrorScenarioTests')
+data.setCell(17, 3, 863);
+window.suiteTableData['Restful_Booker_API_Test_Suite']= { tableData: data, tableDiv: 'times-div-Restful_Booker_API_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-Restful_Booker_API_Test_Suite">
+              </div> <!-- times-div-Restful_Booker_API_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Restful_Booker_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Restful-Booker API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Restful_Booker_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">7 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.example.apitesting.tests.apis.SearchBookingTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.example.apitesting.tests.E2ETests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.example.apitesting.tests.apis.DeleteBookingTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.example.apitesting.tests.ErrorScenarioTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.example.apitesting.tests.apis.GetBookingTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.example.apitesting.tests.apis.UpdateBookingTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.example.apitesting.tests.apis.CreateBookingTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Restful_Booker_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.apitesting.tests.apis.AuthTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">testCreateToken</span>
+                <span class="method-start">798 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.apitesting.tests.apis.CreateBookingTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateBooking</span>
+                <span class="method-start">18587 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.apitesting.tests.apis.GetBookingTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupBooking</span>
+                <span class="method-start">21196 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllBookingIds</span>
+                <span class="method-start">23227 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetBookingById</span>
+                <span class="method-start">24682 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.apitesting.tests.apis.UpdateBookingTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupBooking</span>
+                <span class="method-start">26632 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateBooking</span>
+                <span class="method-start">27578 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateBookingInvalidToken</span>
+                <span class="method-start">28575 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.apitesting.tests.apis.DeleteBookingTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupBooking</span>
+                <span class="method-start">29529 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteBooking</span>
+                <span class="method-start">32025 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.apitesting.tests.apis.SearchBookingTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupTestData</span>
+                <span class="method-start">34852 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSearchBookingByDates</span>
+                <span class="method-start">35743 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchBookingByName</span>
+                <span class="method-start">37209 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.apitesting.tests.E2ETests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testBookingLifecycle</span>
+                <span class="method-start">39682 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.apitesting.tests.ErrorScenarioTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAuthWithInvalidCredentials</span>
+                <span class="method-start">46073 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateBookingInvalidJson</span>
+                <span class="method-start">46997 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteBookingWithInvalidToken</span>
+                <span class="method-start">47896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteNonExistentBooking</span>
+                <span class="method-start">48793 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetNonExistentBooking</span>
+                <span class="method-start">49686 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateBookingWithInvalidToken</span>
+                <span class="method-start">50570 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateNonExistentBooking</span>
+                <span class="method-start">51476 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.apitesting.tests.apis.PartialUpdateBookingTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">52343 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testPartialUpdateBooking</span>
+                <span class="method-start">53255 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

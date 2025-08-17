@@ -1,0 +1,1 @@
+{"bookingid":1043,"booking":{"firstname":"Charlie","lastname":"Brown","totalprice":667,"depositpaid":false,"bookingdates":{"checkin":"2025-08-17","checkout":"2025-08-20"},"additionalneeds":"Breakfast"}}

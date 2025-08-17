@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="End to End Suite"  >
+    <listeners>
+        <listener class-name="Listeners.IInvokedMethodListenerImpl"/>
+        <listener class-name="Listeners.ITest"/>
+    </listeners>
+    <test name="End to End Tests" >
+        <classes>
+
+            <class name="com.example.apitesting.tests.E2ETests" />
+
+        </classes>
+    </test>
+</suite>

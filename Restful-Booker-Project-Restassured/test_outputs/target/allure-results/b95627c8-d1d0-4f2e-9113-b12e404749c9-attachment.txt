@@ -1,0 +1,1 @@
+{"firstname":"Alice","lastname":"Smith","totalprice":56,"depositpaid":false,"bookingdates":{"checkin":"2025-08-17","checkout":"2025-08-18"},"additionalneeds":"Lunch"}

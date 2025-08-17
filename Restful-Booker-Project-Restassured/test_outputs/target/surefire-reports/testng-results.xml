@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-17T15:52:25 EEST" name="Restful-Booker API Test Suite" finished-at="2025-08-17T15:53:19 EEST" duration-ms="53565">
+    <groups>
+    </groups>
+    <test started-at="2025-08-17T15:52:25 EEST" name="Restful-Booker API Tests" finished-at="2025-08-17T15:53:19 EEST" duration-ms="53565">
+      <class name="com.example.apitesting.tests.apis.UpdateBookingTests">
+        <test-method is-config="true" signature="setupBooking()[pri:0, instance:com.example.apitesting.tests.apis.UpdateBookingTests@32da97fd]" started-at="2025-08-17T15:52:51 EEST" name="setupBooking" finished-at="2025-08-17T15:52:52 EEST" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBooking -->
+        <test-method signature="testUpdateBooking()[pri:0, instance:com.example.apitesting.tests.apis.UpdateBookingTests@32da97fd]" started-at="2025-08-17T15:52:52 EEST" name="testUpdateBooking" description="Verify successful booking update" finished-at="2025-08-17T15:52:53 EEST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateBooking -->
+        <test-method signature="testUpdateBookingInvalidToken()[pri:0, instance:com.example.apitesting.tests.apis.UpdateBookingTests@32da97fd]" started-at="2025-08-17T15:52:53 EEST" name="testUpdateBookingInvalidToken" description="Verify booking update with invalid token" finished-at="2025-08-17T15:52:54 EEST" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateBookingInvalidToken -->
+      </class> <!-- com.example.apitesting.tests.apis.UpdateBookingTests -->
+      <class name="com.example.apitesting.tests.apis.AuthTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.apitesting.tests.apis.AuthTests@1f7e52d1]" started-at="2025-08-17T15:52:24 EEST" name="setup" finished-at="2025-08-17T15:52:25 EEST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateToken()[pri:0, instance:com.example.apitesting.tests.apis.AuthTests@1f7e52d1]" started-at="2025-08-17T15:52:25 EEST" name="testCreateToken" description="Verify successful token creation" finished-at="2025-08-17T15:52:43 EEST" duration-ms="17678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateToken -->
+      </class> <!-- com.example.apitesting.tests.apis.AuthTests -->
+      <class name="com.example.apitesting.tests.apis.CreateBookingTests">
+        <test-method signature="testCreateBooking()[pri:0, instance:com.example.apitesting.tests.apis.CreateBookingTests@5cce40d7]" started-at="2025-08-17T15:52:43 EEST" name="testCreateBooking" description="Verify successful booking creation" finished-at="2025-08-17T15:52:45 EEST" duration-ms="2603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+      </class> <!-- com.example.apitesting.tests.apis.CreateBookingTests -->
+      <class name="com.example.apitesting.tests.apis.GetBookingTests">
+        <test-method is-config="true" signature="setupBooking()[pri:0, instance:com.example.apitesting.tests.apis.GetBookingTests@314b7945]" started-at="2025-08-17T15:52:45 EEST" name="setupBooking" finished-at="2025-08-17T15:52:48 EEST" duration-ms="2031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBooking -->
+        <test-method signature="testGetAllBookingIds()[pri:0, instance:com.example.apitesting.tests.apis.GetBookingTests@314b7945]" started-at="2025-08-17T15:52:48 EEST" name="testGetAllBookingIds" description="Verify retrieving all booking IDs" finished-at="2025-08-17T15:52:49 EEST" duration-ms="1451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllBookingIds -->
+        <test-method signature="testGetBookingById()[pri:0, instance:com.example.apitesting.tests.apis.GetBookingTests@314b7945]" started-at="2025-08-17T15:52:49 EEST" name="testGetBookingById" description="Verify retrieving a booking by ID" finished-at="2025-08-17T15:52:51 EEST" duration-ms="1946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBookingById -->
+      </class> <!-- com.example.apitesting.tests.apis.GetBookingTests -->
+      <class name="com.example.apitesting.tests.E2ETests">
+        <test-method signature="testBookingLifecycle()[pri:0, instance:com.example.apitesting.tests.E2ETests@2049e582]" started-at="2025-08-17T15:53:04 EEST" name="testBookingLifecycle" description="End-to-End Test: Create, Get, Update, Partial Update, Delete Booking" finished-at="2025-08-17T15:53:10 EEST" duration-ms="6388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingLifecycle -->
+      </class> <!-- com.example.apitesting.tests.E2ETests -->
+      <class name="com.example.apitesting.tests.apis.DeleteBookingTests">
+        <test-method is-config="true" signature="setupBooking()[pri:0, instance:com.example.apitesting.tests.apis.DeleteBookingTests@64440065]" started-at="2025-08-17T15:52:54 EEST" name="setupBooking" finished-at="2025-08-17T15:52:56 EEST" duration-ms="2496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBooking -->
+        <test-method signature="testDeleteBooking()[pri:0, instance:com.example.apitesting.tests.apis.DeleteBookingTests@64440065]" started-at="2025-08-17T15:52:56 EEST" name="testDeleteBooking" description="Verify successful booking deletion" finished-at="2025-08-17T15:52:59 EEST" duration-ms="2823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBooking -->
+      </class> <!-- com.example.apitesting.tests.apis.DeleteBookingTests -->
+      <class name="com.example.apitesting.tests.apis.PartialUpdateBookingTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.apitesting.tests.apis.PartialUpdateBookingTests@2c99c8d]" started-at="2025-08-17T15:53:17 EEST" name="setup" finished-at="2025-08-17T15:53:18 EEST" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPartialUpdateBooking()[pri:0, instance:com.example.apitesting.tests.apis.PartialUpdateBookingTests@2c99c8d]" started-at="2025-08-17T15:53:18 EEST" name="testPartialUpdateBooking" description="Verify partial update of booking with valid data" finished-at="2025-08-17T15:53:19 EEST" duration-ms="1057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPartialUpdateBooking -->
+      </class> <!-- com.example.apitesting.tests.apis.PartialUpdateBookingTests -->
+      <class name="com.example.apitesting.tests.ErrorScenarioTests">
+        <test-method signature="testAuthWithInvalidCredentials()[pri:0, instance:com.example.apitesting.tests.ErrorScenarioTests@464aeb09]" started-at="2025-08-17T15:53:10 EEST" name="testAuthWithInvalidCredentials" description="Verify authentication with invalid credentials" finished-at="2025-08-17T15:53:11 EEST" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthWithInvalidCredentials -->
+        <test-method signature="testCreateBookingInvalidJson()[pri:0, instance:com.example.apitesting.tests.ErrorScenarioTests@464aeb09]" started-at="2025-08-17T15:53:11 EEST" name="testCreateBookingInvalidJson" description="Verify booking creation with invalid JSON" finished-at="2025-08-17T15:53:12 EEST" duration-ms="896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBookingInvalidJson -->
+        <test-method signature="testDeleteBookingWithInvalidToken()[pri:0, instance:com.example.apitesting.tests.ErrorScenarioTests@464aeb09]" started-at="2025-08-17T15:53:12 EEST" name="testDeleteBookingWithInvalidToken" description="Verify deleting a booking with invalid token" finished-at="2025-08-17T15:53:13 EEST" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBookingWithInvalidToken -->
+        <test-method signature="testDeleteNonExistentBooking()[pri:0, instance:com.example.apitesting.tests.ErrorScenarioTests@464aeb09]" started-at="2025-08-17T15:53:13 EEST" name="testDeleteNonExistentBooking" description="Verify deleting a non-existent booking" finished-at="2025-08-17T15:53:14 EEST" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteNonExistentBooking -->
+        <test-method signature="testGetNonExistentBooking()[pri:0, instance:com.example.apitesting.tests.ErrorScenarioTests@464aeb09]" started-at="2025-08-17T15:53:14 EEST" name="testGetNonExistentBooking" description="Verify getting a non-existent booking" finished-at="2025-08-17T15:53:15 EEST" duration-ms="882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetNonExistentBooking -->
+        <test-method signature="testUpdateBookingWithInvalidToken()[pri:0, instance:com.example.apitesting.tests.ErrorScenarioTests@464aeb09]" started-at="2025-08-17T15:53:15 EEST" name="testUpdateBookingWithInvalidToken" description="Verify updating a booking with invalid token" finished-at="2025-08-17T15:53:16 EEST" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateBookingWithInvalidToken -->
+        <test-method signature="testUpdateNonExistentBooking()[pri:0, instance:com.example.apitesting.tests.ErrorScenarioTests@464aeb09]" started-at="2025-08-17T15:53:16 EEST" name="testUpdateNonExistentBooking" description="Verify updating a non-existent booking" finished-at="2025-08-17T15:53:17 EEST" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateNonExistentBooking -->
+      </class> <!-- com.example.apitesting.tests.ErrorScenarioTests -->
+      <class name="com.example.apitesting.tests.apis.SearchBookingTests">
+        <test-method is-config="true" signature="setupTestData()[pri:0, instance:com.example.apitesting.tests.apis.SearchBookingTests@4aa22cc2]" started-at="2025-08-17T15:52:59 EEST" name="setupTestData" finished-at="2025-08-17T15:53:00 EEST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestData -->
+        <test-method signature="testSearchBookingByDates()[pri:0, instance:com.example.apitesting.tests.apis.SearchBookingTests@4aa22cc2]" started-at="2025-08-17T15:53:00 EEST" name="testSearchBookingByDates" description="Verify searching bookings by dates" finished-at="2025-08-17T15:53:02 EEST" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBookingByDates -->
+        <test-method signature="testSearchBookingByName()[pri:0, instance:com.example.apitesting.tests.apis.SearchBookingTests@4aa22cc2]" started-at="2025-08-17T15:53:02 EEST" name="testSearchBookingByName" description="Verify searching bookings by name" finished-at="2025-08-17T15:53:04 EEST" duration-ms="2471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBookingByName -->
+      </class> <!-- com.example.apitesting.tests.apis.SearchBookingTests -->
+    </test> <!-- Restful-Booker API Tests -->
+  </suite> <!-- Restful-Booker API Test Suite -->
+</testng-results>

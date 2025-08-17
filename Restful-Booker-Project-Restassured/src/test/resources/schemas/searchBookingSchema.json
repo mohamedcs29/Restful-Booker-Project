@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Search Booking Response",
+  "description": "Schema for the search booking API response (list of booking IDs)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "bookingid"
+    ],
+    "properties": {
+      "bookingid": {
+        "type": "integer"
+      }
+    },
+    "additionalProperties": false
+  }
+}
+

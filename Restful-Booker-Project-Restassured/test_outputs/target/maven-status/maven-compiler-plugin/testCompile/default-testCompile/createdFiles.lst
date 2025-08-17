@@ -1,0 +1,12 @@
+com\example\apitesting\tests\apis\UpdateBookingTests.class
+com\example\apitesting\tests\apis\CreateBookingTests.class
+com\example\apitesting\tests\apis\DeleteBookingTests.class
+com\example\apitesting\tests\apis\SearchBookingTests.class
+com\example\apitesting\tests\E2ETests.class
+com\example\apitesting\tests\apis\GetBookingTests.class
+com\example\apitesting\base\BaseTest.class
+com\example\apitesting\tests\apis\PartialUpdateBookingTests.class
+Listeners\IInvokedMethodListenerImpl.class
+com\example\apitesting\tests\ErrorScenarioTests.class
+Listeners\ITest.class
+com\example\apitesting\tests\apis\AuthTests.class

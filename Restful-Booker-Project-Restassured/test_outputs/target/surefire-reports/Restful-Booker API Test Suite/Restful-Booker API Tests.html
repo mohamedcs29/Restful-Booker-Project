@@ -1,0 +1,170 @@
+<html>
+<head>
+<title>TestNG:  Restful-Booker API Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Restful-Booker API Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 17 15:52:25 EEST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>53 seconds (53565 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.example.apitesting.tests.ErrorScenarioTests.testGetNonExistentBooking()'><b>testGetNonExistentBooking</b><br>Test class: com.example.apitesting.tests.ErrorScenarioTests<br>Test method: Verify getting a non-existent booking</td>
+<td></td>
+<td>0</td>
+<td>com.example.apitesting.tests.ErrorScenarioTests@464aeb09</td></tr>
+<tr>
+<td title='com.example.apitesting.tests.apis.GetBookingTests.testGetBookingById()'><b>testGetBookingById</b><br>Test class: com.example.apitesting.tests.apis.GetBookingTests<br>Test method: Verify retrieving a booking by ID</td>
+<td></td>
+<td>1</td>
+<td>com.example.apitesting.tests.apis.GetBookingTests@314b7945</td></tr>
+<tr>
+<td title='com.example.apitesting.tests.ErrorScenarioTests.testDeleteBookingWithInvalidToken()'><b>testDeleteBookingWithInvalidToken</b><br>Test class: com.example.apitesting.tests.ErrorScenarioTests<br>Test method: Verify deleting a booking with invalid token</td>
+<td></td>
+<td>0</td>
+<td>com.example.apitesting.tests.ErrorScenarioTests@464aeb09</td></tr>
+<tr>
+<td title='com.example.apitesting.tests.apis.AuthTests.testCreateToken()'><b>testCreateToken</b><br>Test class: com.example.apitesting.tests.apis.AuthTests<br>Test method: Verify successful token creation</td>
+<td></td>
+<td>17</td>
+<td>com.example.apitesting.tests.apis.AuthTests@1f7e52d1</td></tr>
+<tr>
+<td title='com.example.apitesting.tests.ErrorScenarioTests.testUpdateBookingWithInvalidToken()'><b>testUpdateBookingWithInvalidToken</b><br>Test class: com.example.apitesting.tests.ErrorScenarioTests<br>Test method: Verify updating a booking with invalid token</td>
+<td></td>
+<td>0</td>
+<td>com.example.apitesting.tests.ErrorScenarioTests@464aeb09</td></tr>
+<tr>
+<td title='com.example.apitesting.tests.apis.DeleteBookingTests.testDeleteBooking()'><b>testDeleteBooking</b><br>Test class: com.example.apitesting.tests.apis.DeleteBookingTests<br>Test method: Verify successful booking deletion</td>
+<td></td>
+<td>2</td>
+<td>com.example.apitesting.tests.apis.DeleteBookingTests@64440065</td></tr>
+<tr>
+<td title='com.example.apitesting.tests.apis.SearchBookingTests.testSearchBookingByName()'><b>testSearchBookingByName</b><br>Test class: com.example.apitesting.tests.apis.SearchBookingTests<br>Test method: Verify searching bookings by name</td>
+<td></td>
+<td>2</td>
+<td>com.example.apitesting.tests.apis.SearchBookingTests@4aa22cc2</td></tr>
+<tr>
+<td title='com.example.apitesting.tests.apis.SearchBookingTests.testSearchBookingByDates()'><b>testSearchBookingByDates</b><br>Test class: com.example.apitesting.tests.apis.SearchBookingTests<br>Test method: Verify searching bookings by dates</td>
+<td></td>
+<td>1</td>
+<td>com.example.apitesting.tests.apis.SearchBookingTests@4aa22cc2</td></tr>
+<tr>
+<td title='com.example.apitesting.tests.ErrorScenarioTests.testUpdateNonExistentBooking()'><b>testUpdateNonExistentBooking</b><br>Test class: com.example.apitesting.tests.ErrorScenarioTests<br>Test method: Verify updating a non-existent booking</td>
+<td></td>
+<td>0</td>
+<td>com.example.apitesting.tests.ErrorScenarioTests@464aeb09</td></tr>
+<tr>
+<td title='com.example.apitesting.tests.apis.UpdateBookingTests.testUpdateBooking()'><b>testUpdateBooking</b><br>Test class: com.example.apitesting.tests.apis.UpdateBookingTests<br>Test method: Verify successful booking update</td>
+<td></td>
+<td>0</td>
+<td>com.example.apitesting.tests.apis.UpdateBookingTests@32da97fd</td></tr>
+<tr>
+<td title='com.example.apitesting.tests.ErrorScenarioTests.testAuthWithInvalidCredentials()'><b>testAuthWithInvalidCredentials</b><br>Test class: com.example.apitesting.tests.ErrorScenarioTests<br>Test method: Verify authentication with invalid credentials</td>
+<td></td>
+<td>0</td>
+<td>com.example.apitesting.tests.ErrorScenarioTests@464aeb09</td></tr>
+<tr>
+<td title='com.example.apitesting.tests.apis.PartialUpdateBookingTests.testPartialUpdateBooking()'><b>testPartialUpdateBooking</b><br>Test class: com.example.apitesting.tests.apis.PartialUpdateBookingTests<br>Test method: Verify partial update of booking with valid data</td>
+<td></td>
+<td>1</td>
+<td>com.example.apitesting.tests.apis.PartialUpdateBookingTests@2c99c8d</td></tr>
+<tr>
+<td title='com.example.apitesting.tests.apis.GetBookingTests.testGetAllBookingIds()'><b>testGetAllBookingIds</b><br>Test class: com.example.apitesting.tests.apis.GetBookingTests<br>Test method: Verify retrieving all booking IDs</td>
+<td></td>
+<td>1</td>
+<td>com.example.apitesting.tests.apis.GetBookingTests@314b7945</td></tr>
+<tr>
+<td title='com.example.apitesting.tests.apis.UpdateBookingTests.testUpdateBookingInvalidToken()'><b>testUpdateBookingInvalidToken</b><br>Test class: com.example.apitesting.tests.apis.UpdateBookingTests<br>Test method: Verify booking update with invalid token</td>
+<td></td>
+<td>0</td>
+<td>com.example.apitesting.tests.apis.UpdateBookingTests@32da97fd</td></tr>
+<tr>
+<td title='com.example.apitesting.tests.E2ETests.testBookingLifecycle()'><b>testBookingLifecycle</b><br>Test class: com.example.apitesting.tests.E2ETests<br>Test method: End-to-End Test: Create, Get, Update, Partial Update, Delete Booking</td>
+<td></td>
+<td>6</td>
+<td>com.example.apitesting.tests.E2ETests@2049e582</td></tr>
+<tr>
+<td title='com.example.apitesting.tests.apis.CreateBookingTests.testCreateBooking()'><b>testCreateBooking</b><br>Test class: com.example.apitesting.tests.apis.CreateBookingTests<br>Test method: Verify successful booking creation</td>
+<td></td>
+<td>2</td>
+<td>com.example.apitesting.tests.apis.CreateBookingTests@5cce40d7</td></tr>
+<tr>
+<td title='com.example.apitesting.tests.ErrorScenarioTests.testCreateBookingInvalidJson()'><b>testCreateBookingInvalidJson</b><br>Test class: com.example.apitesting.tests.ErrorScenarioTests<br>Test method: Verify booking creation with invalid JSON</td>
+<td></td>
+<td>0</td>
+<td>com.example.apitesting.tests.ErrorScenarioTests@464aeb09</td></tr>
+<tr>
+<td title='com.example.apitesting.tests.ErrorScenarioTests.testDeleteNonExistentBooking()'><b>testDeleteNonExistentBooking</b><br>Test class: com.example.apitesting.tests.ErrorScenarioTests<br>Test method: Verify deleting a non-existent booking</td>
+<td></td>
+<td>0</td>
+<td>com.example.apitesting.tests.ErrorScenarioTests@464aeb09</td></tr>
+</table><p>
+</body>
+</html>

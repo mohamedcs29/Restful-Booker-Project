@@ -1,0 +1,1 @@
+{"uuid":"01c7031f-8799-4283-ab46-c3aa8bf3e5e7","name":"Restful-Booker API Test Suite","children":["76c96b0d-e886-45d8-986a-f26745c9aea4"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1755435144820,"stop":1755435145542}],"afters":[],"start":1755435144789,"stop":1755435199153}
